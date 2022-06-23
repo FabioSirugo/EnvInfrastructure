@@ -1,8 +1,13 @@
 Department_chart:
   build:
     enabled: false
+  replicaCount: 1
   deploy:
-    replicas: 2
-  image:
-    repository: dariofrongillo/department-ws
-    tag: "0.0.1"
+    image:
+      repository: dariofrongillo/department-ws
+      tag: 0.0.2
+  configmap:
+    data:
+      username_postgres: postgres
+      url_postgres: jdbc:postgresql://34.90.37.234:5432/departments?currentSchema=departments
+      url_staff: http://microservice-staff:80
