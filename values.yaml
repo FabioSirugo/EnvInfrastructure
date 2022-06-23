@@ -2,6 +2,8 @@ Department_chart:
   replicaCount: 4
   build:
     enabled: true
-  image:
-    repository: dariofrongillo/department-ws
-    tag: 0.0.2
+  deploy:
+    image:
+      repository: dariofrongillo/department-ws
+      tag: 0.0.1
+      
