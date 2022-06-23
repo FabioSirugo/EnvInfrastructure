@@ -1,0 +1,8 @@
+departments:
+  build:
+    enabled: false
+  deploy:
+    replicaCount: 2
+  image:
+    repository: dariofrongillo/department-ws
+    tag: 0.0.2
