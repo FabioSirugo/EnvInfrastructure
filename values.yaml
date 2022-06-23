@@ -1,11 +1,11 @@
 Department_chart:
   build:
     enabled: false
-  replicaCount: 3
   deploy:
-    image:
-      repository: dariofrongillo/department-ws
-      tag: 0.0.1
+    replicas: 1
+  image:
+    repository: dariofrongillo/department-ws
+    tag: 0.0.1
   configmap:
     data:
       username_postgres: postgres
