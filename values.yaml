@@ -1,5 +1,5 @@
 Department_chart:
-  replicaCount: 3
+  replicaCount: 1
   build:
     enabled: false
   image:
