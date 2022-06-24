@@ -1,2 +1,3 @@
 # GitOpsArgoCd
-Test dellla metodologia GitOps, in questa repo vado a definire dei chart che hanno delle dipendenze 
+Repository su cui eseguo ArgoCD.
+Ad ogni modifica di chart.yaml e values.yaml ArgoCD andrà a riportare le modifiche 
