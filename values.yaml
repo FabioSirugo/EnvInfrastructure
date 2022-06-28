@@ -1,7 +1,7 @@
 
-replicaCount_Department: 3
+replicaCount_Department: 1
 repository_Department: dariofrongillo/department-ws
-tag_Department: 0.0.2
+tag_Department: 0.0.1
  
 replicaCount_Staff: 2
 repository_Staff: dariofrongillo/staff-ws
