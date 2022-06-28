@@ -1,9 +1,9 @@
-Department_chart:
- replicaCount_Department: 1
- repository_Department: dariofrongillo/department-ws
- tag_Department: 0.0.1
-
 Staff_chart:
  replicaCount_Staff: 1
  repository_Staff: dariofrongillo/staff-ws
  tag_Staff: 0.0.1
+
+Department_chart:
+ replicaCount_Department: 1
+ repository_Department: dariofrongillo/department-ws
+ tag_Department: 0.0.1
