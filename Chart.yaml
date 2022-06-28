@@ -28,5 +28,5 @@ dependencies:
     version: "0.0.3"
     repository: https://fabiosirugo.github.io/Helm-Chart-Release/
   - name: Staff_chart
-    version: "0.0.1"
+    version: "0.0.2"
     repository: https://fabiosirugo.github.io/Helm-Chart-Release/
