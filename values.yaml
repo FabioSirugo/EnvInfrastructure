@@ -5,7 +5,7 @@ Department_chart:
       repository: dariofrongillo/department-ws
       tag: 0.0.2
   build:
-    enabled: true
+    enabled: false
 Staff_chart:
   replicaCount: 2
   deploy:
@@ -13,4 +13,4 @@ Staff_chart:
       repository: dariofrongillo/staff-ws
       tag: 0.0.1
   build:
-    enabled: true
+    enabled: false
