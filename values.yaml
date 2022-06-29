@@ -13,7 +13,7 @@ global:
 
     Staff_deploy:
       Staff_image: 
-       Staff_repository: dariofrongillo/staff-ws
+        Staff_repository: dariofrongillo/staff-ws
         Staff_tag: 0.0.1
     build:
       enabled: false
