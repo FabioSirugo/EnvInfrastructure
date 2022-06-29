@@ -1,3 +1,5 @@
+global: {}
+
 Department_chart:
  replicaCount: 4
  deploy:
