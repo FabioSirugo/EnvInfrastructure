@@ -9,7 +9,7 @@ Department_chart:
  build:
    enabled: false
 Staff_chart:
- replicaCount: 1
+ replicaCount: 3
  deploy:
   image:
    repository: dariofrongillo/staff-ws
