@@ -1,6 +1,6 @@
 global: 
   Department_chart:
-    Department_replicaCount: 1
+    Department_replicaCount: 2
 
     Department_deploy:
       Department_image:
@@ -9,7 +9,7 @@ global:
     build:
       enabled: false
   Staff_chart:
-    Staff_replicaCount: 1
+    Staff_replicaCount: 2
 
     Staff_deploy:
       Staff_image: 
