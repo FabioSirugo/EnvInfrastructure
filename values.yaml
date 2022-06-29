@@ -1,12 +1,12 @@
 Staff_chart:
  build:
-  enabled: false
+  enabled: true
  replicaCount_Staff: 3
  repository_Staff: dariofrongillo/staff-ws
  tag_Staff: 0.0.1
 Department_chart:
  build:
-  enabled: false
+  enabled: true
  replicaCount_Department: 3
  repository_Department: dariofrongillo/department-ws
  tag_Department: 0.0.1
