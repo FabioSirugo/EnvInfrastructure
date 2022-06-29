@@ -1,14 +1,14 @@
 Department_chart:
-  Department_replicaCount: 2  
+  Department_replicaCount: 3
   deploy:
     image:
       Department_repository: dariofrongillo/department-ws
-      Department_tag: 0.0.1
+      Department_tag: 0.0.2
   build:
     enabled: false
  
 Staff_chart:
-  Staff_replicaCount: 2
+  Staff_replicaCount: 3
   deploy:
     image:
       Staff_repository: dariofrongillo/staff-ws
