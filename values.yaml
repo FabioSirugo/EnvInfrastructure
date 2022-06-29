@@ -7,6 +7,6 @@ Staff_chart:
 Department_chart:
  build:
   enabled: true
- replicaCount_Department: 1
+ replicaCount_Department: 3
  repository_Department: dariofrongillo/department-ws
  tag_Department: 0.0.1
