@@ -9,4 +9,4 @@ Department_chart:
   enabled: true
  replicaCount_Department: 1
  repository_Department: dariofrongillo/department-ws
- tag_Department: 0.0.2
+ tag_Department: 0.0.1
