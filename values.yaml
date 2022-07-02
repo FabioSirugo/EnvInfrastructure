@@ -1,6 +1,6 @@
 
 Department_chart:
-  Department_replicaCount: 3
+  Department_replicaCount: 2
 
   Department_deploy:
     Department_image:
