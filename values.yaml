@@ -1,11 +1,11 @@
 
 Department_chart:
-  Department_replicaCount: 3
+  Department_replicaCount: 2
 
   Department_deploy:
     Department_image:
       Department_repository: dariofrongillo/department-ws
-      Department_tag: 0.0.2
+      Department_tag: 0.0.1
   build:
     enabled: false
 Staff_chart:
