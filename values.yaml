@@ -1,6 +1,6 @@
 
 Department_chart:
-  Department_replicaCount: 2
+  Department_replicaCount: 3
 
   Department_deploy:
     Department_image:
@@ -9,7 +9,7 @@ Department_chart:
   build:
     enabled: false
 Staff_chart:
-  Staff_replicaCount: 2
+  Staff_replicaCount: 3
 
   Staff_deploy:
     Staff_image: 
